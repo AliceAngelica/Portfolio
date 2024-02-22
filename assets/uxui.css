@@ -1,0 +1,78 @@
+#logo {
+    font-family: "Zeyada", cursive;
+    font-size: 26px;
+    /* transition: 1s ease-in all; */
+}
+
+#logo:hover {
+    text-decoration: 2px rgb(190, 141, 186) double underline;
+    transition: 1s all;
+    background-color: rgba(213, 177, 235, 0);
+}
+
+#dropdown a:active {
+    background-color: rgba(213, 177, 235, 0.958);
+
+}
+
+
+nav a:hover {
+    background-color: rgba(213, 177, 235, 0.659);
+}
+
+
+.shape {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: lightgray;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgray;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    transition: 2.5s ease-in-out all;
+  }
+  #star-five:before {
+    border-bottom: 80px solid lightgray;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: lightgray;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgray;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  /* #star-five:hover {
+    transform: translateX(200px) rotate(135deg);
+  } */
+
+  #star-five:hover {
+    transform: translateX(800px) rotate(182deg);
+  }

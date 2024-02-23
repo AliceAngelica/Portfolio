@@ -11,8 +11,9 @@
         <link rel="stylesheet" href="assets/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zeyada&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Paytone+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zeyada&display=swap" rel="stylesheet">
     </head>
+
     <body>
         <nav class="navbar navbar-expand-md navbar-light style="background="#79b6e8">
             <!-- <div class="container"> -->
@@ -44,11 +45,11 @@
         </nav>
         <!--jumbotron-->
 
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="introduction">
             <div class="col-md-5 p-lg-5 mx-auto my-5">
-                <h1 class="display-4 fw-normal">UX/UI Projects</h1>
+                <h1 class="display-4 fw-normal" id="title">UX/UI Projects</h1>
                 <p class="lead fw-normal">Scroll down to check out my portfolio, click on each button to view more information from each project.</p>
-                <a class="btn btn-outline-secondary" href="#">Link</a>
+                <a class="btn btn-outline-secondary" href="#first-card"><i class="fa-solid fa-arrow-down fa-bounce"></i> Scroll Down</a>
             </div>
         </div>
 
@@ -71,12 +72,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="first-card">
                         <img src="assets/images/flower.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Miles & Miles</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         </div>
                     </div>
                 </div>
@@ -85,9 +87,10 @@
                 <div class="card mb-3">
                     <img src="assets/images/flower.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Tfl</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
                 </div>
             </div>
@@ -98,12 +101,59 @@
             <div class="card mb-3">
                 <img src="assets/images/flower.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Hmv</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-1">
+                    <div class="card mb-3">
+                        <img src="assets/images/flower.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Sainsburys</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="col-md-6 p-1">
+                <div class="card mb-5">
+                    <img src="assets/images/flower.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Something else</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <ul class="nav nav-tabs fixed-bottom text-muted mt-5" id="footer">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active"><i class="fa-solid fa-arrow-up"></i>&nbsp; Back to top</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/AliceAngelica" class="nav-link text-muted" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/alice-katinas-979757257/" class="nav-link text-muted" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-muted" id="last-link">link??</a>
+                </li>
+                   
+            </ul>
+        </footer>
               
 
 
@@ -155,10 +205,14 @@
         <!-- <div class="shape">
         </div>
         <div id="star-five"></div> -->
+
+
+        
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://kit.fontawesome.com/bd8e817afe.js" crossorigin="anonymous"></script>
     </body>
 </html>

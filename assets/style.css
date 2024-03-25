@@ -43,6 +43,11 @@ nav a:hover {
     /* padding-bottom: 150px; */
 }
 
+.jumbotron {
+    height: 900px;
+}
+
+
 .first-line {
     color: black;
     font-family: "Paytone One", sans-serif;
@@ -58,18 +63,19 @@ nav a:hover {
 
 #small-circle {
     background-image: url("../assets/images/aliceakatinas.jpg");
-    background-size: contain;
+    /* background-size: contain;
     background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    border: 10px solid rgba(216, 193, 230, 0.82);
+    background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* width: 500px;
+    height: 500px; */
+    /* border-radius: 50%; */
+    /* border: 10px solid rgba(216, 193, 230, 0.82); */
+    border: 10px solid black;
     position: relative;
-    left: 580px;
-    bottom: 400px;
-    float: right;
+    left: 900px;
+    bottom: 540px;
+    /* float: right; */
 
 }
 
@@ -98,7 +104,6 @@ rgb(190, 141, 186) */
 }
 
 
-
 span {
     width: 200px;
     height: 200px;
@@ -106,6 +111,11 @@ span {
 }
 
 /* Jumbotron */
+
+#about_text {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+}
 
 #about-btn {
     border: 2px solid rgb(190, 141, 186);
